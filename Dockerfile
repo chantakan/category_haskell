@@ -68,6 +68,7 @@ RUN mkdir /home/USN/work
 WORKDIR /home/USN/work
 RUN yes | stack upgrade
 RUN echo 'export PATH=$HOME/.local/bin:$PATH' >> ${HOME}/.bashrc
+COPY sample/ /home/USN/work/
 
 USER root
 RUN sed -i '$d' /etc/sudoers
