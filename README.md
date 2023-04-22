@@ -24,7 +24,7 @@ docker build -t haskell-excercise:latest .
 ### 1.2. 作成したコンテナイメージからコンテナを作成する
 
 ```
-docker run -it --name haskell-excercise-sshd haskell-excercise:latest 
+docker run -it --name haskell-excercise-sshd haskell-excercise:latest /bin/bash
 ```
 "haskell-excercise-sshd"を任意のコンテナ名に変える
 通常はこれでは入れる. コンテナへは入れない場合は次
