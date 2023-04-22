@@ -11,7 +11,7 @@ DockerでHaskellの環境構築を行う
 ### 0.1. [Dockerインストール](https://and-engineer.com/articles/Yb2imhEAACMAhjUx#heading3-18)
 
 ### 0.2. (linux向け)sudo無しでdockerコマンド実行
-[こちら]([)](https://qiita.com/katoyu_try1/items/1bdaaad9f64af86bbfb7)を参考にしてほしい
+[こちら](https://qiita.com/katoyu_try1/items/1bdaaad9f64af86bbfb7)を参考にしてほしい
 
 ## 1.すぐに始める人向け
 ### 1.1. コンテナイメージを作成する
