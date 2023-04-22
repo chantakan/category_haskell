@@ -24,13 +24,13 @@ docker build -t haskell-excercise:latest .
 ### 1.2. 作成したコンテナイメージからコンテナを作成する
 
 ```
-docker run -it --rm --name haskell-excercise-sshd haskell-excercise:latest 
+docker run -it --name haskell-excercise-sshd haskell-excercise:latest 
 ```
 "haskell-excercise-sshd"を任意のコンテナ名に変える
 通常はこれでは入れる. コンテナへは入れない場合は次
 
 
-## 2.コンテナへssh接続して使いたい
+## 2.コンテナへssh接続して使いたい人向け
 
 ### 2.1. ユーザー登録
 ssh接続先のユーザーへ入るためのユーザー名を設定できる(デフォルトはユーザー名:パスワード=USN:PWADだがこのままで良いなら2.2.へ)
