@@ -29,6 +29,12 @@ docker run -it --name haskell-excercise-sshd haskell-excercise:latest
 "haskell-excercise-sshd"を任意のコンテナ名に変える
 通常はこれでは入れる. コンテナへは入れない場合は次
 
+### 1.3. 作成後コンテナへ入る方法
+
+```
+docker exec -u USN -it haskell-excercise-sshd /bin/bash
+```
+
 
 ## 2.コンテナへssh接続して使いたい人向け
 
