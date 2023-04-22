@@ -1,7 +1,7 @@
 # 初期設定
 git cloneでダウンロードするなりする
 
-カレントディレクトリをvategory_haskell/にする
+カレントディレクトリをcategory_haskell/にする
 
 # category_haskell
 
@@ -58,7 +58,7 @@ docker run -d -p 2121:22 --name haskell-excercise-sshd haskell-excercise:latest
  
 ```
 "haskell-excercise-sshd"を任意のコンテナ名に変える.
-2121は任意のポート名でOK
+2121は任意のポート番号でOK
 
 
 ### 2.4. ssh設定
